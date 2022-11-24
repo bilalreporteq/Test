@@ -17,4 +17,4 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run:  ${{ env.name }}
+    - run: echo ${{ env.name }}
